@@ -1464,3 +1464,57 @@
 [info] i  functions: Finished "api" in ~1s
 [debug] [2020-05-09T16:19:26.067Z] [worker-api-566b268f-27c4-4d51-ada1-8077352547c0]: IDLE 
 [debug] [2020-05-09T16:19:26.068Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-05-09T16:47:23.066Z] File D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\util\validators.js changed, reloading triggers 
+[debug] [2020-05-09T16:47:24.067Z] [worker-pool] Shutting down IDLE worker (~diagnostic~) 
+[debug] [2020-05-09T16:47:24.067Z] [worker-~diagnostic~-51562912-c974-4362-a65e-b15d179ff711]: FINISHING 
+[debug] [2020-05-09T16:47:24.067Z] [worker-pool] Shutting down IDLE worker (api) 
+[debug] [2020-05-09T16:47:24.067Z] [worker-api-566b268f-27c4-4d51-ada1-8077352547c0]: FINISHING 
+[debug] [2020-05-09T16:47:24.074Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-09T16:47:24.074Z] [worker-pool] Adding worker with key ~diagnostic~, total=2 
+[debug] [2020-05-09T16:47:24.074Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-09T16:47:24.075Z] [worker-~diagnostic~-89958b0c-e309-4565-8750-8584fd7e565b]: Assigning socketPath: \\?\pipe\D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\23448 
+[debug] [2020-05-09T16:47:24.075Z] [worker-~diagnostic~-89958b0c-e309-4565-8750-8584fd7e565b]: BUSY 
+[debug] [2020-05-09T16:47:24.077Z] [worker-~diagnostic~-51562912-c974-4362-a65e-b15d179ff711]: exited 
+[debug] [2020-05-09T16:47:24.078Z] [worker-~diagnostic~-51562912-c974-4362-a65e-b15d179ff711]: FINISHED 
+[debug] [2020-05-09T16:47:24.082Z] [worker-api-566b268f-27c4-4d51-ada1-8077352547c0]: exited 
+[debug] [2020-05-09T16:47:24.082Z] [worker-api-566b268f-27c4-4d51-ada1-8077352547c0]: FINISHED 
+[debug] [2020-05-09T16:47:24.486Z] [runtime-status] [23448] Functions runtime initialized. {"cwd":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions","node_version":"12.10.0"} 
+[debug] [2020-05-09T16:47:24.487Z] [runtime-status] [23448] Disabled runtime features: undefined 
+[debug] [2020-05-09T16:47:24.489Z] [runtime-status] [23448] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T16:47:24.491Z] [runtime-status] [23448] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to ./firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2020-05-09T16:47:24.493Z] [runtime-status] [23448] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-09T16:47:24.528Z] [runtime-status] [23448] Checked functions.config() {"config":{}} 
+[debug] [2020-05-09T16:47:24.529Z] [runtime-status] [23448] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T16:47:24.529Z] [runtime-status] [23448] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T16:47:24.530Z] [runtime-status] [23448] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T16:47:24.530Z] [runtime-status] [23448] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} 
+[debug] [2020-05-09T16:47:24.660Z] [runtime-status] [23448] initializeApp(DEFAULT) {"databaseURL":"https://firebase-todo-app-001.firebaseio.com","storageBucket":"firebase-todo-app-001.appspot.com","projectId":"firebase-todo-app-001"} 
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[debug] [2020-05-09T16:47:25.123Z] [worker-~diagnostic~-89958b0c-e309-4565-8750-8584fd7e565b]: IDLE 
+[debug] [2020-05-09T16:47:37.262Z] File D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\util\validators.js changed, reloading triggers 
+[debug] [2020-05-09T16:47:38.263Z] [worker-pool] Shutting down IDLE worker (~diagnostic~) 
+[debug] [2020-05-09T16:47:38.263Z] [worker-~diagnostic~-89958b0c-e309-4565-8750-8584fd7e565b]: FINISHING 
+[debug] [2020-05-09T16:47:38.263Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1 
+[debug] [2020-05-09T16:47:38.264Z] [worker-pool] Cleaned up workers for api: 1 --> 0 
+[debug] [2020-05-09T16:47:38.269Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-09T16:47:38.269Z] [worker-pool] Adding worker with key ~diagnostic~, total=2 
+[debug] [2020-05-09T16:47:38.269Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-09T16:47:38.269Z] [worker-~diagnostic~-591e560f-4af3-4ed3-b877-1c0b615f40a2]: Assigning socketPath: \\?\pipe\D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\9416 
+[debug] [2020-05-09T16:47:38.269Z] [worker-~diagnostic~-591e560f-4af3-4ed3-b877-1c0b615f40a2]: BUSY 
+[debug] [2020-05-09T16:47:38.275Z] [worker-~diagnostic~-89958b0c-e309-4565-8750-8584fd7e565b]: exited 
+[debug] [2020-05-09T16:47:38.275Z] [worker-~diagnostic~-89958b0c-e309-4565-8750-8584fd7e565b]: FINISHED 
+[debug] [2020-05-09T16:47:38.651Z] [runtime-status] [9416] Functions runtime initialized. {"cwd":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions","node_version":"12.10.0"} 
+[debug] [2020-05-09T16:47:38.654Z] [runtime-status] [9416] Disabled runtime features: undefined 
+[debug] [2020-05-09T16:47:38.658Z] [runtime-status] [9416] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T16:47:38.661Z] [runtime-status] [9416] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to ./firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2020-05-09T16:47:38.664Z] [runtime-status] [9416] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-09T16:47:38.720Z] [runtime-status] [9416] Checked functions.config() {"config":{}} 
+[debug] [2020-05-09T16:47:38.722Z] [runtime-status] [9416] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T16:47:38.724Z] [runtime-status] [9416] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T16:47:38.725Z] [runtime-status] [9416] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T16:47:38.726Z] [runtime-status] [9416] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} 
+[debug] [2020-05-09T16:47:38.867Z] [runtime-status] [9416] initializeApp(DEFAULT) {"databaseURL":"https://firebase-todo-app-001.firebaseio.com","storageBucket":"firebase-todo-app-001.appspot.com","projectId":"firebase-todo-app-001"} 
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[debug] [2020-05-09T16:47:39.226Z] [worker-~diagnostic~-591e560f-4af3-4ed3-b877-1c0b615f40a2]: IDLE 

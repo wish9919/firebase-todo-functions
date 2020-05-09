@@ -3,6 +3,7 @@ const isEmpty = (string) => {
   else return false;
 };
 
+//login validation
 exports.validateLoginData = (data) => {
   let errors = {};
   if (isEmpty(data.email)) errors.email = "Must Not Be Empty!";
