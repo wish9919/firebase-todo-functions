@@ -1,0 +1,248 @@
+[debug] [2020-05-09T14:51:22.134Z] ----------------------------------------------------------------------
+[debug] [2020-05-09T14:51:22.136Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vishv\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-05-09T14:51:22.137Z] CLI Version:   8.2.0
+[debug] [2020-05-09T14:51:22.137Z] Platform:      win32
+[debug] [2020-05-09T14:51:22.137Z] Node Version:  v12.10.0
+[debug] [2020-05-09T14:51:22.138Z] Time:          Sat May 09 2020 20:21:22 GMT+0530 (India Standard Time)
+[debug] [2020-05-09T14:51:22.138Z] ----------------------------------------------------------------------
+[debug] [2020-05-09T14:51:22.138Z] 
+[debug] [2020-05-09T14:51:22.146Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-09T14:51:22.146Z] > authorizing via signed-in user
+[debug] [2020-05-09T14:51:22.146Z] [iam] checking project firebase-todo-app-001 for permissions ["firebase.projects.get"]
+[debug] [2020-05-09T14:51:22.149Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/firebase-todo-app-001:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-09T14:51:22.968Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 09 May 2020 14:51:22 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=265","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-09T14:51:22.970Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/firebase-todo-app-001  
+ 
+[debug] [2020-05-09T14:51:23.620Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 09 May 2020 14:51:22 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'D:\Learn\Firebase\Firebase_Todo\firebase-todo'...
+[info] 
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions" for Cloud Functions...
+[debug] [2020-05-09T14:51:25.656Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-09T14:51:25.656Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-05-09T14:51:25.656Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-09T14:51:25.657Z] [worker-~diagnostic~-837e6e79-4adc-480b-ad30-e62042dae45b]: Assigning socketPath: \\?\pipe\D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\13048 
+[debug] [2020-05-09T14:51:25.658Z] [worker-~diagnostic~-837e6e79-4adc-480b-ad30-e62042dae45b]: BUSY 
+[debug] [2020-05-09T14:51:26.002Z] [runtime-status] [13048] Functions runtime initialized. {"cwd":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions","node_version":"12.10.0"} 
+[debug] [2020-05-09T14:51:26.003Z] [runtime-status] [13048] Disabled runtime features: undefined 
+[debug] [2020-05-09T14:51:26.005Z] [runtime-status] [13048] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T14:51:26.007Z] [runtime-status] [13048] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to ./firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2020-05-09T14:51:26.009Z] [runtime-status] [13048] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-09T14:51:26.043Z] [runtime-status] [13048] Checked functions.config() {"config":{}} 
+[debug] [2020-05-09T14:51:26.044Z] [runtime-status] [13048] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T14:51:26.045Z] [runtime-status] [13048] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T14:51:26.045Z] [runtime-status] [13048] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T14:51:26.045Z] [runtime-status] [13048] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} 
+[warn] !  Error: Failed to read credentials from file ./firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json: Error: ENOENT: no such file or directory, open './firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json'
+    at FirebaseAppError.FirebaseError [as constructor] (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:42:28)
+    at FirebaseAppError.PrefixedFirebaseError [as constructor] (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:88:28)
+    at new FirebaseAppError (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:123:28)
+    at readCredentialFile (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:383:15)
+    at credentialFromFile (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:362:27)
+    at Object.getApplicationDefault (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:281:16)
+    at new FirebaseApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-app.js:194:53)
+    at FirebaseNamespaceInternals.initializeApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-namespace.js:80:19)
+    at FirebaseNamespace.initializeApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-namespace.js:442:30)
+    at Proxy.<anonymous> (C:\Users\vishv\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:315:72)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2020-05-09T14:51:26.160Z] [worker-~diagnostic~-837e6e79-4adc-480b-ad30-e62042dae45b]: exited 
+[debug] [2020-05-09T14:51:26.160Z] [worker-~diagnostic~-837e6e79-4adc-480b-ad30-e62042dae45b]: FINISHED 
+[debug] [2020-05-09T14:51:53.384Z] ----------------------------------------------------------------------
+[debug] [2020-05-09T14:51:53.386Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vishv\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-05-09T14:51:53.386Z] CLI Version:   8.2.0
+[debug] [2020-05-09T14:51:53.386Z] Platform:      win32
+[debug] [2020-05-09T14:51:53.386Z] Node Version:  v12.10.0
+[debug] [2020-05-09T14:51:53.387Z] Time:          Sat May 09 2020 20:21:53 GMT+0530 (India Standard Time)
+[debug] [2020-05-09T14:51:53.387Z] ----------------------------------------------------------------------
+[debug] [2020-05-09T14:51:53.388Z] 
+[debug] [2020-05-09T14:51:53.395Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-09T14:51:53.396Z] > authorizing via signed-in user
+[debug] [2020-05-09T14:51:53.396Z] [iam] checking project firebase-todo-app-001 for permissions ["firebase.projects.get"]
+[debug] [2020-05-09T14:51:53.399Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/firebase-todo-app-001:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-09T14:51:55.102Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 09 May 2020 14:51:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1348","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-09T14:51:55.103Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/firebase-todo-app-001  
+ 
+[debug] [2020-05-09T14:51:55.744Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 09 May 2020 14:51:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'D:\Learn\Firebase\Firebase_Todo\firebase-todo'...
+[info] 
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions" for Cloud Functions...
+[debug] [2020-05-09T14:51:57.785Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-09T14:51:57.785Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-05-09T14:51:57.785Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-09T14:51:57.786Z] [worker-~diagnostic~-6b39d694-53ca-4ebb-b7c7-f30609695b15]: Assigning socketPath: \\?\pipe\D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\12132 
+[debug] [2020-05-09T14:51:57.786Z] [worker-~diagnostic~-6b39d694-53ca-4ebb-b7c7-f30609695b15]: BUSY 
+[debug] [2020-05-09T14:51:58.129Z] [runtime-status] [12132] Functions runtime initialized. {"cwd":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions","node_version":"12.10.0"} 
+[debug] [2020-05-09T14:51:58.130Z] [runtime-status] [12132] Disabled runtime features: undefined 
+[debug] [2020-05-09T14:51:58.132Z] [runtime-status] [12132] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T14:51:58.134Z] [runtime-status] [12132] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to ./firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2020-05-09T14:51:58.136Z] [runtime-status] [12132] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-09T14:51:58.170Z] [runtime-status] [12132] Checked functions.config() {"config":{}} 
+[debug] [2020-05-09T14:51:58.171Z] [runtime-status] [12132] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T14:51:58.172Z] [runtime-status] [12132] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T14:51:58.172Z] [runtime-status] [12132] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T14:51:58.172Z] [runtime-status] [12132] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} 
+[warn] !  Error: Failed to read credentials from file ./firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json: Error: ENOENT: no such file or directory, open './firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json'
+    at FirebaseAppError.FirebaseError [as constructor] (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:42:28)
+    at FirebaseAppError.PrefixedFirebaseError [as constructor] (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:88:28)
+    at new FirebaseAppError (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:123:28)
+    at readCredentialFile (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:383:15)
+    at credentialFromFile (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:362:27)
+    at Object.getApplicationDefault (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:281:16)
+    at new FirebaseApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-app.js:194:53)
+    at FirebaseNamespaceInternals.initializeApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-namespace.js:80:19)
+    at FirebaseNamespace.initializeApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-namespace.js:442:30)
+    at Proxy.<anonymous> (C:\Users\vishv\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:315:72)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2020-05-09T14:51:58.287Z] [worker-~diagnostic~-6b39d694-53ca-4ebb-b7c7-f30609695b15]: exited 
+[debug] [2020-05-09T14:51:58.288Z] [worker-~diagnostic~-6b39d694-53ca-4ebb-b7c7-f30609695b15]: FINISHED 
+[debug] [2020-05-09T14:52:08.656Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-05-09T14:52:08.657Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-05-09T14:52:08.658Z] FirebaseError: No trigger with name api 
+[debug] [2020-05-09T14:52:08.658Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-05-09T14:52:45.585Z] ----------------------------------------------------------------------
+[debug] [2020-05-09T14:52:45.587Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vishv\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-05-09T14:52:45.588Z] CLI Version:   8.2.0
+[debug] [2020-05-09T14:52:45.588Z] Platform:      win32
+[debug] [2020-05-09T14:52:45.588Z] Node Version:  v12.10.0
+[debug] [2020-05-09T14:52:45.589Z] Time:          Sat May 09 2020 20:22:45 GMT+0530 (India Standard Time)
+[debug] [2020-05-09T14:52:45.589Z] ----------------------------------------------------------------------
+[debug] [2020-05-09T14:52:45.589Z] 
+[debug] [2020-05-09T14:52:45.597Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-09T14:52:45.597Z] > authorizing via signed-in user
+[debug] [2020-05-09T14:52:45.598Z] [iam] checking project firebase-todo-app-001 for permissions ["firebase.projects.get"]
+[debug] [2020-05-09T14:52:45.600Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/firebase-todo-app-001:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-09T14:52:47.551Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 09 May 2020 14:52:46 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1338","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-09T14:52:47.552Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/firebase-todo-app-001  
+ 
+[debug] [2020-05-09T14:52:48.175Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 09 May 2020 14:52:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'D:\Learn\Firebase\Firebase_Todo\firebase-todo'...
+[info] 
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions" for Cloud Functions...
+[debug] [2020-05-09T14:52:50.220Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-09T14:52:50.220Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-05-09T14:52:50.220Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-09T14:52:50.221Z] [worker-~diagnostic~-034783ad-4e3b-4956-8326-5ff614e8a1b7]: Assigning socketPath: \\?\pipe\D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\5984 
+[debug] [2020-05-09T14:52:50.221Z] [worker-~diagnostic~-034783ad-4e3b-4956-8326-5ff614e8a1b7]: BUSY 
+[debug] [2020-05-09T14:52:50.568Z] [runtime-status] [5984] Functions runtime initialized. {"cwd":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions","node_version":"12.10.0"} 
+[debug] [2020-05-09T14:52:50.569Z] [runtime-status] [5984] Disabled runtime features: undefined 
+[debug] [2020-05-09T14:52:50.571Z] [runtime-status] [5984] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T14:52:50.573Z] [runtime-status] [5984] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2020-05-09T14:52:50.575Z] [runtime-status] [5984] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-09T14:52:50.612Z] [runtime-status] [5984] Checked functions.config() {"config":{}} 
+[debug] [2020-05-09T14:52:50.612Z] [runtime-status] [5984] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T14:52:50.613Z] [runtime-status] [5984] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T14:52:50.614Z] [runtime-status] [5984] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T14:52:50.614Z] [runtime-status] [5984] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} 
+[warn] !  Error: Failed to read credentials from file firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json: Error: ENOENT: no such file or directory, open 'firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json'
+    at FirebaseAppError.FirebaseError [as constructor] (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:42:28)
+    at FirebaseAppError.PrefixedFirebaseError [as constructor] (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:88:28)
+    at new FirebaseAppError (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:123:28)
+    at readCredentialFile (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:383:15)
+    at credentialFromFile (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:362:27)
+    at Object.getApplicationDefault (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:281:16)
+    at new FirebaseApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-app.js:194:53)
+    at FirebaseNamespaceInternals.initializeApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-namespace.js:80:19)
+    at FirebaseNamespace.initializeApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-namespace.js:442:30)
+    at Proxy.<anonymous> (C:\Users\vishv\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:315:72)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2020-05-09T14:52:50.726Z] [worker-~diagnostic~-034783ad-4e3b-4956-8326-5ff614e8a1b7]: exited 
+[debug] [2020-05-09T14:52:50.727Z] [worker-~diagnostic~-034783ad-4e3b-4956-8326-5ff614e8a1b7]: FINISHED 
+[debug] [2020-05-09T14:54:04.205Z] File D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\index.js changed, reloading triggers 
+[debug] [2020-05-09T14:54:05.207Z] [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0 
+[debug] [2020-05-09T14:54:05.223Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-09T14:54:05.224Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-05-09T14:54:05.224Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-09T14:54:05.225Z] [worker-~diagnostic~-72e4d089-a22d-4ad0-9120-ec3429b9ddfc]: Assigning socketPath: \\?\pipe\D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\6244 
+[debug] [2020-05-09T14:54:05.225Z] [worker-~diagnostic~-72e4d089-a22d-4ad0-9120-ec3429b9ddfc]: BUSY 
+[debug] [2020-05-09T14:54:05.678Z] [runtime-status] [6244] Functions runtime initialized. {"cwd":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions","node_version":"12.10.0"} 
+[debug] [2020-05-09T14:54:05.679Z] [runtime-status] [6244] Disabled runtime features: undefined 
+[debug] [2020-05-09T14:54:05.682Z] [runtime-status] [6244] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T14:54:05.683Z] [runtime-status] [6244] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2020-05-09T14:54:05.685Z] [runtime-status] [6244] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-09T14:54:05.724Z] [runtime-status] [6244] Checked functions.config() {"config":{}} 
+[debug] [2020-05-09T14:54:05.725Z] [runtime-status] [6244] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T14:54:05.726Z] [runtime-status] [6244] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T14:54:05.727Z] [runtime-status] [6244] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T14:54:05.727Z] [runtime-status] [6244] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} 
+[warn] !  Error: Failed to read credentials from file firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json: Error: ENOENT: no such file or directory, open 'firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json'
+    at FirebaseAppError.FirebaseError [as constructor] (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:42:28)
+    at FirebaseAppError.PrefixedFirebaseError [as constructor] (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:88:28)
+    at new FirebaseAppError (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:123:28)
+    at readCredentialFile (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:383:15)
+    at credentialFromFile (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:362:27)
+    at Object.getApplicationDefault (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:281:16)
+    at new FirebaseApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-app.js:194:53)
+    at FirebaseNamespaceInternals.initializeApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-namespace.js:80:19)
+    at FirebaseNamespace.initializeApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-namespace.js:442:30)
+    at Proxy.<anonymous> (C:\Users\vishv\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:315:72)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2020-05-09T14:54:05.850Z] [worker-~diagnostic~-72e4d089-a22d-4ad0-9120-ec3429b9ddfc]: exited 
+[debug] [2020-05-09T14:54:05.850Z] [worker-~diagnostic~-72e4d089-a22d-4ad0-9120-ec3429b9ddfc]: FINISHED 
+[debug] [2020-05-09T14:54:15.480Z] ----------------------------------------------------------------------
+[debug] [2020-05-09T14:54:15.483Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vishv\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-05-09T14:54:15.483Z] CLI Version:   8.2.0
+[debug] [2020-05-09T14:54:15.483Z] Platform:      win32
+[debug] [2020-05-09T14:54:15.483Z] Node Version:  v12.10.0
+[debug] [2020-05-09T14:54:15.484Z] Time:          Sat May 09 2020 20:24:15 GMT+0530 (India Standard Time)
+[debug] [2020-05-09T14:54:15.484Z] ----------------------------------------------------------------------
+[debug] [2020-05-09T14:54:15.484Z] 
+[debug] [2020-05-09T14:54:15.492Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-09T14:54:15.493Z] > authorizing via signed-in user
+[debug] [2020-05-09T14:54:15.493Z] [iam] checking project firebase-todo-app-001 for permissions ["firebase.projects.get"]
+[debug] [2020-05-09T14:54:15.496Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/firebase-todo-app-001:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-09T14:54:17.923Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 09 May 2020 14:54:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1361","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-09T14:54:17.927Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/firebase-todo-app-001  
+ 
+[debug] [2020-05-09T14:54:18.535Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 09 May 2020 14:54:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'D:\Learn\Firebase\Firebase_Todo\firebase-todo'...
+[info] 
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions" for Cloud Functions...
+[debug] [2020-05-09T14:54:20.579Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-09T14:54:20.580Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-05-09T14:54:20.580Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-09T14:54:20.580Z] [worker-~diagnostic~-3db48c86-270b-4a47-8bdc-3b4c676734a0]: Assigning socketPath: \\?\pipe\D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\14096 
+[debug] [2020-05-09T14:54:20.581Z] [worker-~diagnostic~-3db48c86-270b-4a47-8bdc-3b4c676734a0]: BUSY 
+[debug] [2020-05-09T14:54:20.922Z] [runtime-status] [14096] Functions runtime initialized. {"cwd":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions","node_version":"12.10.0"} 
+[debug] [2020-05-09T14:54:20.923Z] [runtime-status] [14096] Disabled runtime features: undefined 
+[debug] [2020-05-09T14:54:20.925Z] [runtime-status] [14096] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T14:54:20.927Z] [runtime-status] [14096] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[warn] !  functions: Your GOOGLE_APPLICATION_CREDENTIALS environment variable points to ./firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json. Non-emulated services will access production using these credentials. Be careful!
+[debug] [2020-05-09T14:54:20.928Z] [runtime-status] [14096] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-09T14:54:20.964Z] [runtime-status] [14096] Checked functions.config() {"config":{}} 
+[debug] [2020-05-09T14:54:20.964Z] [runtime-status] [14096] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T14:54:20.966Z] [runtime-status] [14096] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-09T14:54:20.966Z] [runtime-status] [14096] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-09T14:54:20.966Z] [runtime-status] [14096] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.0","resolution":"D:\\Learn\\Firebase\\Firebase_Todo\\firebase-todo\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} 
+[warn] !  Error: Failed to read credentials from file ./firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json: Error: ENOENT: no such file or directory, open './firebase-todo-app-001-firebase-adminsdk-iyytg-0981a87d80.json'
+    at FirebaseAppError.FirebaseError [as constructor] (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:42:28)
+    at FirebaseAppError.PrefixedFirebaseError [as constructor] (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:88:28)
+    at new FirebaseAppError (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\utils\error.js:123:28)
+    at readCredentialFile (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:383:15)
+    at credentialFromFile (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:362:27)
+    at Object.getApplicationDefault (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\auth\credential.js:281:16)
+    at new FirebaseApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-app.js:194:53)
+    at FirebaseNamespaceInternals.initializeApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-namespace.js:80:19)
+    at FirebaseNamespace.initializeApp (D:\Learn\Firebase\Firebase_Todo\firebase-todo\functions\node_modules\firebase-admin\lib\firebase-namespace.js:442:30)
+    at Proxy.<anonymous> (C:\Users\vishv\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:315:72)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2020-05-09T14:54:21.076Z] [worker-~diagnostic~-3db48c86-270b-4a47-8bdc-3b4c676734a0]: exited 
+[debug] [2020-05-09T14:54:21.076Z] [worker-~diagnostic~-3db48c86-270b-4a47-8bdc-3b4c676734a0]: FINISHED 
